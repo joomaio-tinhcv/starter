@@ -16,7 +16,7 @@ class StartModel extends Base
         // get file xml
         if(!$this->solutions)
         {
-            $this->solutions = simplexml_load_file(SPT_PLUGIN_PATH .'devtool/start/solution.xml');
+            $this->solutions = simplexml_load_file(ROOT_PATH .'solution.xml');
         }
 
         return $this->solutions;
