@@ -11,7 +11,7 @@
 		<description>Pi Solution</description>
 		<required>pnote</required>
 	</psol>
-	<pubsol>
+	<!-- <pubsol>
 		<name>pubsol</name>
 		<link></link>
 		<description>Publishment Solution</description>
@@ -20,6 +20,6 @@
 		<name>shopsol</name>
 		<link></link>
 		<description>Shop Solution</description>
-	</shopsol>
+	</shopsol> -->
 </solutions>
 			
