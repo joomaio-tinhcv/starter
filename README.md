@@ -1,17 +1,33 @@
 # Starter
 
-Core Starter to run install solution using SPT framework
+Starter to run install solution using SPT framework
 
 ## Getting started
 
 Clone
 ```
 cd existing_repo
-git clone https://github.com/joomaio/pnote.git
+git clone https://github.com/joomaio-tinhcv/starter.git
 ```
-Edit php_modules/config.php to connect to the database
+Edit config.php to connect to the database
 
-Install database
+Run install solution
 ```
-php cli.php install-data
+php cli.php install solution-name
+```
+
+Example install solution
+```
+php cli.php install pnote
+```
+
+Solution list:
+pnote
+psol
+pubsol (Todo)
+shopsol(Todo)
+
+Run install data minium
+```
+php cli.php install pnote
 ```
