@@ -37,7 +37,7 @@ phpdoc-*
 /plugins/installer/webinstaller
 /vendor
 /composer.lock
-config.php
+/config
 /public/media/*
 !/public/media/default/*
 /php_modules/plugins/psol

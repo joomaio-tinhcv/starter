@@ -6,14 +6,22 @@ Starter to run install solution using SPT framework
 
 Clone
 ```
-cd existing_repo
+cd a_folder
 git clone https://github.com/joomaio-tinhcv/starter.git
 ```
+
+Composer install
+```
+cd starter
+composer install
+```
+
+Create folder 
 Edit config.php to connect to the database
 
 Run install solution
 ```
-php cli.php install solution-name
+php cli.php install solution-code
 ```
 
 Example install solution

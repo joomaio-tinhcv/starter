@@ -1,14 +1,5 @@
+#!/usr/bin/env php
 <?php
-/**
- * SPT software - Demo application
- * 
- * @project: https://github.com/smpleader/spt
- * @author: Pham Minh - smpleader
- * @description: How we work with SPT
- * 
- */
-
-
 define('ROOT_PATH', __DIR__ .'/');
 define('APP_PATH', ROOT_PATH. 'php_modules/');
 define('PUBLIC_PATH', ROOT_PATH . '/public/');
@@ -21,7 +12,7 @@ $app = new DTM\core\libraries\Cli(
     new SPT\Container\Joomla,
     PUBLIC_PATH,
     APP_PATH. 'plugins/',
-    ROOT_PATH. 'config.php',
+    ROOT_PATH. 'config',
     'App'
 );
 

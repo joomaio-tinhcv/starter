@@ -21,7 +21,7 @@ $app = new \DTM\core\libraries\SDM(
     new \SPT\Container\Joomla,
     PUBLIC_PATH,
     APP_PATH. 'plugins/',
-    ROOT_PATH. 'config.php',
+    ROOT_PATH. 'config',
     'App'
 );
 
